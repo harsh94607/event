@@ -18,11 +18,14 @@
              <div class="page1">
                 <div class="navi">
                     <div class="left">
-                           <img src="logo.jpg" alt="">
+                           <img src="logo1.png" alt="">
                            <h2>EVENT BLISS</h2>
                     </div>
                     <div class="right">
-                        <i class="ri-menu-line" onclick="toggleMenu()"></i>
+                        <i class="ri-menu-line" 
+                        id="menu-icon" onclick="toggleMenu()"></i>
+                        <i class="ri-menu-fold-4-line show-cross"
+                        id="cross-icon" onclick="toggleMenu()" style="display: none;"></i>
 
                         <ul id="menu" class="menu ">
                             <li><a href="#">Home</a></li>
@@ -37,11 +40,26 @@
                </div>
                <h1>Creating Unforgettable Events</h1>
                <p>At EVENT BLISS, we specialize in creating extraordinary events tailored to your vision. From intimate gatherings to grand celebrations, our expert team handles every detail with precision and creativity, ensuring a seamless experience for you and your guests.</p>
+               <a href="#page2">
+                <button > know more <i class="ri-arrow-down-circle-fill"></i></button>
+               </a>
             </div>
-            <div class="page2">
-                           
+            <div class="page2" id="page2">
+                 <div class="container" id="cont1">
+                    <h2>club party</h2>
+                 </div>        
+                 <div class="container" id="cont2">
+                    <h2>jungle safari</h2>
+                </div>        
+                 <div class="container" id="cont3">
+                    <h2>pool party</h2>
+                 </div>   
+                 <div class="container" id="cont4">
+                    <h2>tracking</h2>
+                </div>       
             </div>
-            <div class="page3">
+            <div class="page3" id="page3">
+                
                            
             </div>
 <script src="script.js"></script>
